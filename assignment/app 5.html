@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.wrapper .input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+width: 100%;
+height: 50px;
+margin: 30px 0;
+
+}
+
+
+
+
+.input-box p  {
+   width: 40%;
+   height: 100%;
+    background: #dbdbdb;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid rgb(224, 224, 224);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.wrapper .btn{
+    width: 40%;
+    height: 100%;
+    background: #4d99e6;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+
+  
+}
+
+.wrapper .input-box .btn{
+margin-top: 7%;
+
+}
+
+.wrapper .remember-forget{
+   padding-left: 30%;
+    font-size: 15px;
+}
+
+
+ .container p{
+padding-left: 1%;
+margin-top: 2%;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+.container img{
+  
+    position: absolute;
+    top: -3%; 
+    right: 0; 
+
+}
+
+.account h4
+{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+    padding-left: 1%;
+}
+
+
+
+</style>
+
+
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+    <div class="container">
+        <p>9:41</p>
+       
+        <img style="width:100px ;"src="https://t4.ftcdn.net/jpg/03/36/98/49/360_F_336984996_UAxHZ5xG8lRGE3MORXVzxnrwsIfE9lKT.jpg">
+        
+
+    </div>
+
+    <div class="account">
+        <h4>What are your goals?</h4>
+
+    </div>
+
+    <div class="wrapper">
+        <form action="">
+           
+             <div class="input-box">
+                <p>Weight Loss  <label>
+                    <input type="checkbox" >
+                </label></p>
+               
+             </div>
+             <div class="input-box">
+                <p>Muscle Gain <label>
+                    <input type="checkbox" >
+                </label> </p>
+                          
+              </div>
+              <div class="input-box">
+                <p>Flexibility and Mobility <label>
+                    <input type="checkbox" >
+                </label></p>
+                           
+              </div>
+              <div class="input-box">
+                <p>General Fitness <label>
+                    <input type="checkbox" >
+                </label> </p>
+                          
+              </div>
+              <div class="input-box">
+                <p>Event - specific training <label>
+                    <input type="checkbox" >
+                </label> </p>
+                          
+              </div>
+              <div class="input-box">
+                <p>Mindfulness and Mental Health   <label>
+                    <input type="checkbox" >
+                </label></p>
+                         
+              </div>
+           
+             
+<div class="input-box">
+    <button type="submit" class="btn">Confirm</button>
+</div>
+
+        </form>
+    </div>
+    <script>
+        // Get the first element with class 'btn'
+        var button = document.getElementsByClassName('btn')[0];
+    
+        // Add an event listener for the 'click' event
+        button.addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            // Redirect to a new page on button click
+            window.location.href = 'app 6.html'; // Make sure the URL is correct
+        });
+    </script>
+
+
+
+
+</body>
+</html>

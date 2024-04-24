@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.wrapper .input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+width: 100%;
+height: 50px;
+margin: 30px 0;
+
+}
+
+
+.input-box input{
+   width: 40%;
+   height: 100%;
+    background: #dbdbdb;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    border: 2px solid rgb(224, 224, 224)
+}
+
+.input-box input::placeholder{
+    color: #8c8c8cf0;
+}
+
+
+
+
+.wrapper .btn{
+    width: 40%;
+    height: 100%;
+    background: #4d99e6;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+
+  
+}
+
+.wrapper .input-box .btn{
+margin-top: 7%;
+
+}
+
+.wrapper .remember-forget{
+   padding-left: 30%;
+    font-size: 15px;
+}
+
+
+ .container p{
+padding-left: 1%;
+margin-top: 2%;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+.container img{
+  
+    position: absolute;
+    top: -3%; 
+    right: 0; 
+
+}
+
+.account h4
+{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+    padding-left: 1%;
+}
+
+
+
+.line{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line img{
+    width: 60px;
+    margin-top:5%;
+
+
+}
+
+
+.wrapper .register-link{
+    font-size:20px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.register-link p a{
+    color: #4d99e6;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+</style>
+
+
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+    <div class="container">
+        <p>9:41</p>
+       
+        <img style="width:100px ;"src="https://t4.ftcdn.net/jpg/03/36/98/49/360_F_336984996_UAxHZ5xG8lRGE3MORXVzxnrwsIfE9lKT.jpg">
+        
+
+    </div>
+
+    <div class="account">
+        <h4>Welcome Back</h4>
+
+    </div>
+
+    <div class="wrapper">
+        <form action="" id="create">
+           
+             <div class="input-box">
+                <input type="text" placeholder="Email" id="email" required>
+             </div>
+             <div class="input-box">
+                <input type="password" placeholder="Password" id="password" required>
+             </div>
+             <div class="remember-forget">
+               <p style="color: darkgrey;"><u>Forgot your password?</u></p> 
+             </div>
+             
+<div class="input-box">
+    <button type="submit" class="btn">Sign In</button>
+</div>
+            
+<div class="line">
+    <img src="https://i.pinimg.com/originals/39/21/6d/39216d73519bca962bd4a01f3e8f4a4b.png">
+    <img src="https://i.pinimg.com/736x/ac/57/3b/ac573b439cde3dec8ca1c6739ae7f628.jpg">
+</div>
+
+<div class="register-link">
+
+    <p>Don’t have an account yet?<u style="color: #4d99e6;"><a href="app 3.html">Create an account</a></u></p>
+</div>
+
+
+        </form>
+    </div>
+    <script>
+        // Get the first element with class 'btn'
+        var button = document.getElementsByClassName('btn')[0];
+    
+        // Add an event listener for the 'click' event
+        button.addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            // Redirect to a new page on button click
+            window.location.href = 'app 5.html'; // Make sure the URL is correct
+        });
+    </script>
+
+
+
+
+
+
+</body>
+</html>
